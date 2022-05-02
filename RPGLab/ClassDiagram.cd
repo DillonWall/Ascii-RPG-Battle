@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DarkKnight">
+    <Position X="9.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>DarkKnight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dragon">
+    <Position X="13.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dragon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enchantress">
+    <Position X="16" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Enchantress.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goblin">
+    <Position X="20.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Goblin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gryphon">
+    <Position X="25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gryphon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Medusa">
+    <Position X="29.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Medusa.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Minotaur">
+    <Position X="11.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Minotaur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monster">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAABACBAKoAAACAIAAQAAAAEAAgAAAgEAQiAAJAA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_money" />
+      <Field Name="m_name" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Skeleton">
+    <Position X="18.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sphinx">
+    <Position X="22.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sphinx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vampire">
+    <Position X="27.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAQAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Vampire.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fight">
+    <Position X="19.75" Y="12.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Fight::DIALOGS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fight.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Fight::MENUS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fight.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Fight::FIGHT_SELECTIONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fight.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Fight::ITEM_SELECTIONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fight.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Fight::MAGIC_SELECTIONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fight.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAEABAAFKRAAAAQBBEQAAQIAAYAAAAAACIEAAAgA=</HashCode>
+      <FileName>Fight.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_character" />
+      <Field Name="m_monster" />
+      <Field Name="m_monsterList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameState">
+    <Position X="11" Y="13" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GameState::KEYS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameState.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="GameState::STATES" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameState.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAIAAAAwAAAAogAAAQAAACAAAgIAA=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentState" />
+      <Field Name="gameStates" />
+      <Field Name="m_gameRef" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoadMenu">
+    <Position X="5.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAABCA=</HashCode>
+      <FileName>LoadMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="8.75" Y="14.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="MainMenu::SELECTION" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainMenu.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAACAAAAAAAAAQAQAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>MainMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewGame">
+    <Position X="13.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAQBABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NewGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop">
+    <Position X="15.75" Y="13.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Shop::MENUS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Shop.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Shop::MAIN_SELECTIONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Shop.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Shop::BUY_SELECTIONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Shop.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Shop::ACTIONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Shop.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAwAAAIAAABAAAAAAAAAAwBAQACAAAAAAAACSAIAAgA=</HashCode>
+      <FileName>Shop.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_character" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DynamicArray&lt;T&gt;">
+    <Position X="38" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAAAAAAAAAEAAAAAQAAAAEJAAAAAAAgAAAIEAI=</HashCode>
+      <FileName>DynamicArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinkedList&lt;T&gt;">
+    <Position X="33.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAIAAABCAAEAEAAAAQAAEgAAAAAAA=</HashCode>
+      <FileName>LinkedList.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_head" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Node&lt;T&gt;">
+    <Position X="33.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAAAAAAgAAAIAAACAAAAAAAAAAIAACAAEAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_next" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="String">
+    <Position X="36.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAABAAEAAAQAAAAQAAAAAAAQAAAAAgAAAAgAA=</HashCode>
+      <FileName>String.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackPack">
+    <Position X="32.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQAAAAAAAAAAAAQAAgBAAAAAEAAAgAAAEAAA=</HashCode>
+      <FileName>BackPack.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_items" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Character">
+    <Position X="35.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAIABCDYCRALoAIAAEYABRAAQAFgEoAAAAXwQiAgLAA=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_armor" />
+      <Field Name="m_backpack" />
+      <Field Name="m_coinpouch" />
+      <Field Name="m_name" />
+      <Field Name="m_spells" />
+      <Field Name="m_weapon" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CoinPouch">
+    <Position X="40" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAABAIAAUAAAAAAAAAAAAEgQAAAEAA=</HashCode>
+      <FileName>CoinPouch.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_money" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Spell">
+    <Position X="27" Y="14.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Spell::SPELLS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Spell.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EQEAAACACAgCIAAIIQACCQAQAEAgAIAAACAiQABQBAA=</HashCode>
+      <FileName>Spell.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_cost" />
+      <Field Name="m_description" />
+      <Field Name="m_name" />
+      <Field Name="spellList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Armor">
+    <Position X="6.5" Y="21" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Armor::ARMORS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Armor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAABAAAAIAAgAAAAAAQAAAQAgAIAAEAAiAAAAAAA=</HashCode>
+      <FileName>Armor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="armorList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Item">
+    <Position X="4" Y="15" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Item::TYPES" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Item.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Item::IDS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Item.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EYIAIAAAACAAAAAAIAACAQAUAAAAAAEAAAAgQABQBAA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_cost" />
+      <Field Name="m_description" />
+      <Field Name="m_name" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Potion">
+    <Position X="8.75" Y="21" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Potion::POTIONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Potion.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABBgAAIAAAAAAgAAAAAAQAACAAgAAAAAQAiAAAAAAA=</HashCode>
+      <FileName>Potion.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="potionList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Weapon">
+    <Position X="11" Y="21" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Weapon::WEAPONS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Weapon.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAIAAACAAAAAAAAAAAAAAQAAAAEgAAgAAAEiAAAAIAA=</HashCode>
+      <FileName>Weapon.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="weaponList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Game">
+    <Position X="29.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASICICAAAgAEAIAABAAAUAAQAiAAAAEAAAAAAgIAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_characters" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Rand">
+    <Position X="39.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Rand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
